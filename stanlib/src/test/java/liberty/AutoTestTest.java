@@ -1,0 +1,34 @@
+package liberty;
+
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
+
+/**
+ * Unit test for simple AutoTest.
+ */
+public class AutoTestTest
+        extends TestCase {
+    /**
+     * Create the test case
+     *
+     * @param testName name of the test case
+     */
+    public AutoTestTest(String testName) {
+        super(testName);
+    }
+
+    /**
+     * @return the suite of tests being tested
+     */
+    public static Test suite() {
+        return new TestSuite(AutoTestTest.class);
+    }
+
+    /**
+     * Rigourous Test :-)
+     */
+    public void testApp() {
+        assertTrue(true);
+    }
+}

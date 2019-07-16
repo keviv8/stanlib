@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="164415" started-at="2019-07-16T07:56:23Z" finished-at="2019-07-16T07:59:07Z">
+    <groups>
+    </groups>
+    <test name="ActionKeywords" duration-ms="164415" started-at="2019-07-16T07:56:23Z" finished-at="2019-07-16T07:59:07Z">
+      <class name="liberty.AutoTest">
+        <test-method status="PASS" signature="calculateDays()[pri:0, instance:liberty.AutoTest@458ad742]" name="calculateDays" is-config="true" duration-ms="39" started-at="2019-07-16T07:56:23Z" finished-at="2019-07-16T07:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateDays -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:liberty.AutoTest@458ad742]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-16T07:56:23Z" finished-at="2019-07-16T07:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="IRSFlow()[pri:0, instance:liberty.AutoTest@458ad742]" name="IRSFlow" duration-ms="70385" started-at="2019-07-16T07:56:23Z" finished-at="2019-07-16T07:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IRSFlow -->
+        <test-method status="PASS" signature="IRNFlow()[pri:0, instance:liberty.AutoTest@458ad742]" name="IRNFlow" duration-ms="12201" started-at="2019-07-16T07:57:33Z" finished-at="2019-07-16T07:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IRNFlow -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:liberty.AutoTest@458ad742]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-16T07:57:33Z" finished-at="2019-07-16T07:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:liberty.AutoTest@458ad742]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-16T07:57:46Z" finished-at="2019-07-16T07:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CRNFlow()[pri:0, instance:liberty.AutoTest@458ad742]" name="CRNFlow" duration-ms="63637" started-at="2019-07-16T07:57:46Z" finished-at="2019-07-16T07:58:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRNFlow -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:liberty.AutoTest@458ad742]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-16T07:58:49Z" finished-at="2019-07-16T07:58:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ELNFlow()[pri:0, instance:liberty.AutoTest@458ad742]" name="ELNFlow" duration-ms="12115" started-at="2019-07-16T07:58:49Z" finished-at="2019-07-16T07:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ELNFlow -->
+        <test-method status="PASS" signature="EQFUTFlow()[pri:0, instance:liberty.AutoTest@458ad742]" name="EQFUTFlow" duration-ms="5559" started-at="2019-07-16T07:59:01Z" finished-at="2019-07-16T07:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EQFUTFlow -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:liberty.AutoTest@458ad742]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-16T07:59:01Z" finished-at="2019-07-16T07:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:liberty.AutoTest@458ad742]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-16T07:59:07Z" finished-at="2019-07-16T07:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CashMIFlow()[pri:0, instance:liberty.AutoTest@458ad742]" name="CashMIFlow" duration-ms="452" started-at="2019-07-16T07:59:07Z" finished-at="2019-07-16T07:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CashMIFlow -->
+      </class> <!-- liberty.AutoTest -->
+    </test> <!-- ActionKeywords -->
+  </suite> <!-- Loan Department -->
+</testng-results>
