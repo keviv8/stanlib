@@ -105,11 +105,21 @@ public class ExcelUtil {
     public static boolean fileAlreadyExists(String path,String filename) {
         boolean result=false;
         String full = path+"\\"+filename;
+        full = full.replace("\"\"","\"");
         ArrayList <String> files  = getFilenamesFromFolder(path);
         for(String s:files) {
-//            System.out.println("Comparing '"+full+"' with '"+s+"'");
-            if(s.equalsIgnoreCase(full))
+//            int lastslashins = s.lastIndexOf("\"");
+//            String justfilenameins=s.substring(lastslashins);
+//            String lastslashinfull = full.
+//            System.out.println("Comparing '"+full+"' with '"+s+"'"+result);
+            if(s.equalsIgnoreCase(full)) {
                 result = true;
+
+            }
+            if(s.contains(filename)){
+                result = true;
+//                        System.out.println("File's already there");
+                }
         }
 
         return result;
